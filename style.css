@@ -9,8 +9,11 @@
 }
 .mainnav a {
   color: white !important;
- 
-
+}
+.mainnav a:hover {
+  color: white !important;
+  background-color: aqua !important;
+  color: black !important;
 }
 .div {
   display: flex;
@@ -21,6 +24,7 @@
   color: white;
 }
 .zee1 p{
+  font-size: 25px;  
   font-weight: 700;
   line-height: 30px;
 }
@@ -31,7 +35,7 @@
   border: 2px solid white;
   border-radius: 5px;
   font-weight: 900;
-  text-shadow: 1px 1px 10px white;
+  text-shadow: 1px 1px 5px white;
 }
 .zee2 img{
   width: 100%;
@@ -54,5 +58,86 @@ h6 {
   font-weight: 700;
 
 }
+.project {
+    margin-top: 60px;
+    padding: 10px 0px;
+    background-color: black;
+}
+.project h5{
+   text-align: center !important;
+   color: white;
+   margin-bottom: 20px;
+   font-size: 30px;
+   font-weight: 700;
+}
+.project button {
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  padding: 5px 13px;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+.project button:hover{
+   color: black;
+   font-weight: 700;
+   background-color: aqua;
+   box-shadow: 2px 2px 15px aqua;
+   transform: scale(1.1);
+   transition: 0.1s;
+   border: none;
+   text-shadow: 1px 1px 6px black;
+}
+#contact {
+  text-align: center;
+  margin-top: 30px;
+  padding: 30px 0px;
+  background-image: url(img/background.jpeg);
+  background-size: cover;
+}
+#contact input {
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+textarea {
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px ;
+}
+#contact button{
+  padding: 4px 35px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(10, 10, 10);
+  border: none;
+  font-weight: 600;
+}
+#contact p{
+  color: black;
+  margin: 20px 0px ;
+  font-size: 20px;
+}
+#about {
+  padding: 20px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.same{
+ width: 100%;
+ height: auto;
+ max-width: 50px;
+ 
+
+}
+#icon{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
 
 
