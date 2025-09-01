@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.mainnav {
+  background-color: black !important;
+
+}
+.mainnav a {
+  color: white !important;
+ 
+
+}
+.div {
+  display: flex;
+  justify-content: space-between; 
+  padding: 20px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+}
+.zee1 p{
+  font-weight: 700;
+  line-height: 30px;
+}
+.zee1 button{
+  padding: 3px 13px;
+  color: white;
+  background-color: rgb(5, 5, 133);
+  border: 2px solid white;
+  border-radius: 5px;
+  font-weight: 900;
+  text-shadow: 1px 1px 10px white;
+}
+.zee2 img{
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+  border-radius: 20px;
+}
+.skills {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  color: white;
+  background-color: black;
+}
+h6 {
+    font-size: 30px !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.skills span {
+  font-weight: 700;
+
+}
+
+
