@@ -135,8 +135,21 @@ textarea {
     display: flex;
     justify-content: center;
 }
+.top img{
+  width: 100%;
+  height: auto;
+  max-width: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  border-radius: 30px;
+}
+#footer p {
+  color: black !important;
+  font-weight: 700;
 
 
+}
 
 
 
